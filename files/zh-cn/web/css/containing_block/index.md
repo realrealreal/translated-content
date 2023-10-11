@@ -194,10 +194,10 @@ section {
 
 p {
   position: fixed;
-  width: 50%; /* == (50vw - (width of vertical scrollbar)) */
-  height: 50%; /* == (50vh - (height of horizontal scrollbar)) */
-  margin: 5%; /* == (5vw - (width of vertical scrollbar)) */
-  padding: 5%; /* == (5vw - (width of vertical scrollbar)) */
+  width: 50%; /* == ((100vw - (width of vertical scrollbar)) / 2) */
+  height: 50%; /* == ((100vh - (height of horizontal scrollbar)) / 2) */
+  margin: 5%; /* == ((100vw - (width of vertical scrollbar)) * 5%) */
+  padding: 5%; /* == ((100vw - (width of vertical scrollbar)) * 5%) */
   background: cyan;
 }
 ```
